@@ -8,11 +8,11 @@ a online ide, base on flask and flask-codemirror
 
 2. 解压，运行app.py，默认运行在所有网络下，端口号5000
 
-![](.\photo\2.PNG)
+<img src=".\photo\2.PNG" alt="1" style="zoom: 80%;" />
 
 ## 运行时截图
 
-![](D:\github\photo\run.PNG)
+<img src=".\photo\run.PNG" alt="1" style="zoom: 80%;" />
 
 ## 感谢
 
