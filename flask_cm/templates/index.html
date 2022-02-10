@@ -1,0 +1,25 @@
+<html>
+  <head>
+    {{ codemirror.include_codemirror() }}
+  </head>
+  <body>
+    <form action={{ url_for('index') }} method="POST">
+       {{ form.csrf_token }}
+       {{ form.source_code }}
+       <input type="submit" value="RUN">
+    </form>
+    <div class="form-group">
+        <br><br>
+        <label for="ct1">python版本：</label>
+        <textarea name="ct1" class="form-control">{{ result['version'] }}</textarea>
+
+        <label for="ct2">运行结果</label>
+        <textarea name="ct2" placeholder="运行结果" class="form-control">{{ result['code'] }}</textarea>
+
+        <br>
+        <label for="content">输出</label>
+        <textarea name="content" placeholder="输出" cols="30" rows="8" class="form-control">{{ result['output'] }}</textarea>
+
+    </div>
+  </body>
+</html>
