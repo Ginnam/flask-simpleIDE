@@ -1,5 +1,5 @@
 # flask-onlineIDE
-a online ide, base on flask and flask-codemirror
+an online ide, base on flask and flask-codemirror
 
 ## How to use it？如何使用？
 1. 下载完整项目文件
