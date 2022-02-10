@@ -10,7 +10,7 @@ an online ide, base on flask and flask-codemirror
 
    > cd flask_cm
    >
-   > pip install -r requirements
+   > pip install -r requirements.txt
 
    如果在pycharm添加依赖，出现Non-zero错误。这是因为pycharm 依赖于 --build-dir来安装包，但是这在最新版的pip中被移除了。将该项目的pip版本降至pip 21.2.4即可
 
